@@ -11,8 +11,8 @@ const coursesList = [
         image: "/lin_alg_basics.jpg",
     },
     {
-        title: "Linear Algebra | Advanced",
-        slug: "linear-algebra-advanced",
+        title: "Linear Algebra | intermediate",
+        slug: "linear-algebra-intermediate",
         image: "/lin_alg_adv.jpg",
     },
     {
@@ -21,8 +21,8 @@ const coursesList = [
         image: "/quant_mech_basic.jpg",
     },
     {
-        title: "Quantum Mechanics | Advanced",
-        slug: "quantum-mechanics-advanced",
+        title: "Quantum Mechanics | intermediate",
+        slug: "quantum-mechanics-intermediate",
         image: "/quant_mech_adv.jpg",
     },
     {

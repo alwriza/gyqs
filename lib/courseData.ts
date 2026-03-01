@@ -45,8 +45,8 @@ export const courses: Course[] = [
         ],
     },
     {
-        slug: "linear-algebra-advanced",
-        title: "Linear Algebra | Advanced",
+        slug: "linear-algebra-intermediate",
+        title: "Linear Algebra | intermediate",
         image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=600&h=450&fit=crop",
         videos: [
             {
@@ -113,13 +113,13 @@ export const courses: Course[] = [
         ],
     },
     {
-        slug: "quantum-mechanics-advanced",
-        title: "Quantum Mechanics | Advanced",
+        slug: "quantum-mechanics-intermediate",
+        title: "Quantum Mechanics | intermediate",
         image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=600&h=450&fit=crop",
         videos: [
             {
                 title: "Lesson 1 — Quantum Entanglement Deep Dive",
-                description: "Advanced study of entanglement, EPR paradox, and non-local correlations in quantum systems.",
+                description: "intermediate study of entanglement, EPR paradox, and non-local correlations in quantum systems.",
                 thumbnail: "https://img.youtube.com/vi/ZuvK-od7jHA/maxresdefault.jpg",
                 youtubeUrl: "https://www.youtube.com/watch?v=ZuvK-od7jHA",
             },
