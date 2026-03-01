@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Share2, Users } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { getCourseBySlug } from "@/lib/courseData";
 import { notFound } from "next/navigation";
 import CourseSidebar from "@/components/ui/CourseSidebar";
