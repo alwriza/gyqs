@@ -49,9 +49,9 @@ export default function Navbar() {
                     <Image
                         src="/gyqs-logo.png"
                         alt="GYQS"
-                        width={70}
-                        height={70}
-                        className="h-12 w-auto object-contain"
+                        width={90}
+                        height={90}
+                        className="h-14 w-auto object-contain"
                         priority
                     />
                 </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
                             key={link.href}
                             href={link.href}
                             onClick={(e) => handleNavClick(e, link.href)}
-                            className="text-sm text-white/70 hover:text-white transition-colors duration-200 relative group"
+                            className="text-md text-white/70 hover:text-white transition-colors duration-200 relative group"
                         >
                             {link.label}
                             <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-gradient-to-r from-accent-pink to-accent-purple group-hover:w-full transition-all duration-300" />

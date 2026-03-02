@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import TeamCard from "@/components/ui/TeamCard";
 
 const teamMembers = [
-    { name: "Ilshatrozy Alhmulaev", role: "CEO", avatar: "/ilshat.png" },
+    { name: "Ilshatrozy Alhmulaev", role: "Founder", avatar: "/ilshat.png" },
     { name: "Miras Tapenov", role: "Research Coordinator", avatar: "/miras-tapenov.png" },
     { name: "Ilyas Kazymbek", role: "Membership Coordinator", avatar: "/ilyas-kazymbek.png" },
     { name: "Arsen Almaskhan", role: "Event Coordinator", avatar: "/arsen-almaskhan.jpg" },
