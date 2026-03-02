@@ -19,19 +19,19 @@ export default function TeamCard({ name, role, avatar, index }: TeamCardProps) {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="group flex flex-col items-center text-center p-6"
         >
-            <div className="relative w-40 h-40 mb-4 rounded-full overflow-hidden border-2 border-white/10 group-hover:border-accent-purple/50 transition-all duration-300">
+            <div className="relative w-48 h-48 sm:w-56 sm:h-56 mb-6 rounded-full overflow-hidden border-2 border-white/10 group-hover:border-accent-purple/50 transition-all duration-300 shadow-xl">
                 <Image
                     src={avatar}
                     alt={name}
                     fill
-                    sizes="112px"
+                    sizes="(max-width: 640px) 192px, 224px"
                     className="object-cover transition-all duration-300 group-hover:brightness-110 group-hover:scale-105"
                 />
             </div>
-            <h3 className="font-bold text-white group-hover:gradient-text transition-all duration-300">
+            <h3 className="text-xl md:text-2xl font-bold text-white group-hover:gradient-text transition-all duration-300">
                 {name}
             </h3>
-            <p className="text-white/50 text-sm mt-1">{role}</p>
+            <p className="text-white/50 text-base md:text-lg mt-2">{role}</p>
         </motion.div>
     );
 }

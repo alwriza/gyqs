@@ -9,7 +9,9 @@ const teamMembers = [
     { name: "Miras Tapenov", role: "Research Coordinator", avatar: "/miras-tapenov.png" },
     { name: "Ilyas Kazymbek", role: "Membership Coordinator", avatar: "/ilyas-kazymbek.png" },
     { name: "Arsen Almaskhan", role: "Event Coordinator", avatar: "/arsen-almaskhan.jpg" },
+    { name: "Aituar Aubakirov", role: "Fullstack Developer", avatar: "/aituar.jpg" },
     { name: "Jogi Suda", role: "Mentor, PhD at CERN", avatar: "/jogi-suda.jpg" },
+
 ];
 
 export default function TeamSection() {
@@ -29,7 +31,7 @@ export default function TeamSection() {
                     Meet Our Team!
                 </motion.h2>
 
-                <div className="flex justify-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-12">
                     {teamMembers.map((member, index) => (
                         <TeamCard key={index} {...member} index={index} />
                     ))}
