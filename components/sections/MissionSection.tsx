@@ -68,10 +68,7 @@ export default function MissionSection() {
                                     className="relative z-10 w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover rounded-2xl drop-shadow-[0_0_30px_rgba(144,149,201,0.3)]"
                                 />
                             </div>
-                            {/* Quantum equation caption */}
-                            <p className="text-center text-accent-pink/40 text-sm mt-4 font-light tracking-wide">
-                                |ψ⟩ = α|alive⟩ + β|dead⟩
-                            </p>
+
                         </motion.div>
                     </motion.div>
                 </div>
