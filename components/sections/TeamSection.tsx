@@ -5,7 +5,11 @@ import { motion, useInView } from "framer-motion";
 import TeamCard from "@/components/ui/TeamCard";
 
 const teamMembers = [
-    { name: "Ilshatrozy Alhmulaev", role: "Founder & CEO", avatar: "/team-member.jpg" },
+    { name: "Ilshatrozy Alhmulaev", role: "CEO", avatar: "/ilshat.png" },
+    { name: "Miras Tapenov", role: "Research Coordinator", avatar: "/miras-tapenov.png" },
+    { name: "Ilyas Kazymbek", role: "Membership Coordinator", avatar: "/ilyas-kazymbek.png" },
+    { name: "Arsen Almaskhan", role: "Event Coordinator", avatar: "/arsen-almaskhan.jpg" },
+    { name: "Jogi Suda", role: "Mentor, PhD at CERN", avatar: "/jogi-suda.jpg" },
 ];
 
 export default function TeamSection() {

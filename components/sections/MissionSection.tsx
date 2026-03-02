@@ -34,8 +34,7 @@ export default function MissionSection() {
                             At GYQS, we believe that quantum science should be accessible to
                             every young mind around the world. Our platform provides free,
                             high-quality educational resources that bridge the gap between
-                            complex quantum concepts and curious students. We are building a
-                            global community of future quantum pioneers.
+                            complex quantum concepts and curious students.
                         </p>
                         <a
                             href="#"
@@ -66,7 +65,7 @@ export default function MissionSection() {
                                     alt="Schrödinger's Cat — alive and dead"
                                     width={380}
                                     height={380}
-                                    className="relative z-10 w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-fit drop-shadow-[0_0_30px_rgba(144,149,201,0.3)]"
+                                    className="relative z-10 w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover rounded-2xl drop-shadow-[0_0_30px_rgba(144,149,201,0.3)]"
                                 />
                             </div>
                             {/* Quantum equation caption */}

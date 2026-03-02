@@ -47,11 +47,11 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link href="/" className="flex items-center">
                     <Image
-                        src="/gyqs-logo.jpg"
+                        src="/gyqs-logo.png"
                         alt="GYQS"
-                        width={200}
-                        height={72}
-                        className="h-20 w-auto object-contain"
+                        width={70}
+                        height={70}
+                        className="h-12 w-auto object-contain"
                         priority
                     />
                 </Link>
